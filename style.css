@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    border: none;
+    align-items: center;
+    margin: -8px; /* gambiarra para tirar margem do navegador */
+}
+
+/* Formatação Nav bar */ 
+
+.navBar {
+    background-image: linear-gradient(90deg, rgb(102, 179, 14), #1166b1 );
+    text-align: center;
+    padding: 20px;
+    margin-left: -8px; /* gambiarra para tirar margem do navegador */
+    margin-right: -8px; /* gambiarra para tirar margem do navegador */
+    margin-top: 4px; /* gambiarra para tirar margem do navegador */
+  }
+  
+  /* estilo texto navbar */
+  .navBar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    padding:  20px; /* espaçamento entre indices */
+    text-decoration: none; /* remove o underline dos links */
+  }
+  
+  /* Ao passar cursor em cima */
+  .navBar a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+  }
+
+/* Formatação da primeira div (.introducao) */
+
+  .introducao h2{
+    margin-top: 60px;
+    font-family:'Noto Sans Display', sans-serif;
+    font-size: 34px;
+    text-align:center;
+  }
+  .introducao p{
+    margin-top: 50px;
+    margin-left: 84px;
+    margin-right: 84px;
+    color: rgb(32, 32, 32);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Formatação Rodapê */
+
+  footer {
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+    padding: 45px;
+    margin-left: -8px; /* gambiarra para tirar margem do navegador */
+    margin-right: -8px; /* gambiarra para tirar margem do navegador */
+    margin-bottom: -30px;
+  }
+
+
+  /* Formatação tabelaRodape */
+
+  .tabelaRodape{
+    margin-top: -10%;
+    margin-left: 15%;
+  }
+  th, td {
+    padding: 10px 60px; /* espaço interno */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  th {
+    font-size: 16px;
+  }
+  td{
+    font-size: 14px;
+  }
+  tbody .link:hover{ /* links internos */
+      text-decoration:underline;
+
+  }
+
+  /* Formatação div class='imagens' Rodape */
+
+    footer .imagens{
+      margin-left: 85%;
+    }
+    footer .imagens img{
+      margin-left: 18px;
+    }
+    footer .imagens img:hover{
+      align-items: center;
+    }
+
+    /* Formatação div após footer */
+
+    .registro{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
+    padding: 2px;
+    margin-left: -8px; /* gambiarra para tirar margem do navegador */
+    margin-right: -8px; /* gambiarra para tirar margem do navegador */
+    margin-bottom: -8px;
+    }
+    .registro h3{
+        font-size: 16px;
+        font-weight: unset;
+        text-align: center;
+    }
